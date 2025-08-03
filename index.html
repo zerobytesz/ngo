@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EmpowerHope Foundation - Home</title>
+    <meta
+      name="description"
+      content="Empowering communities for a better tomorrow. Founded and developed by Raghav Tyagi."
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <style>
+      body {
+        font-family: "Montserrat", sans-serif;
+        background: #f2f6fa;
+        color: #293043;
+      }
+      .navbar {
+        background: linear-gradient(
+          90deg,
+          #134bc7 60%,
+          #0aafd6 100%
+        ) !important;
+      }
+      .navbar-brand,
+      .nav-link {
+        color: #fff !important;
+      }
+      .nav-link.active,
+      .nav-link:hover {
+        color: #ffe066 !important;
+      }
+      .hero-section {
+        background: linear-gradient(120deg, #204070 60%, #1478cf 100%);
+        min-height: 58vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        padding: 80px 20px 100px;
+      }
+      .hero-section h1 {
+        font-size: 3rem;
+        font-weight: 900;
+        line-height: 1.2;
+      }
+      .hero-section p.lead {
+        font-size: 1.4rem;
+        max-width: 600px;
+        margin: 20px auto 40px;
+      }
+      .impact-cards .card {
+        border: none;
+        border-radius: 1.1rem;
+        box-shadow: 0 2px 12px rgba(43, 53, 94, 0.07);
+        transition: 0.3s cubic-bezier(0.4, 2.3, 0.3, 1) transform;
+        padding: 30px 20px;
+      }
+      .impact-cards .card:hover {
+        transform: translateY(-8px);
+      }
+      .impact-cards .bi {
+        font-size: 3rem;
+        margin-bottom: 15px;
+        color: #17a2b8;
+      }
+      .about-highlights {
+        margin: 60px 0;
+      }
+      .about-highlights i {
+        font-size: 2.4rem;
+        color: #1e6ee4;
+        margin-right: 12px;
+      }
+      .about-highlights .placeholder-graphic {
+        background: linear-gradient(123deg, #e9e9e9 0%, #d6dbf7 100%);
+        min-height: 180px;
+        border-radius: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #8ba5c5;
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin: 15px 0;
+      }
+      .testimonial {
+        background: #fff;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+        border-radius: 1.2rem;
+        font-style: italic;
+        padding: 1.5rem 2rem;
+        font-weight: 500;
+        color: #333;
+        text-align: center;
+        margin: 1rem 0;
+        min-height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .section-title {
+        font-weight: 700;
+        font-size: 1.7rem;
+        margin-bottom: 1.5rem;
+        margin-top: 2.2rem;
+        text-align: center;
+      }
+      #backToTop {
+        position: fixed;
+        right: 24px;
+        bottom: 24px;
+        z-index: 999;
+        background: #ffe066;
+        color: #134bc7;
+        border: none;
+        border-radius: 50%;
+        font-size: 2rem;
+        padding: 0.3em 0.6em;
+        box-shadow: 0 2px 10px rgba(24, 18, 47, 0.19);
+        display: none;
+        transition: 0.2s;
+        cursor: pointer;
+      }
+      #backToTop:hover {
+        background: #ffcd39;
+      }
+      footer {
+        margin-top: 70px;
+        background: #e9ecef;
+        color: #555;
+        padding: 15px 0;
+        font-weight: 600;
+      }
+      @media (max-width: 900px) {
+        .hero-section h1 {
+          font-size: 2.2rem;
+        }
+        .hero-section p.lead {
+          font-size: 1.1rem;
+        }
+      }
+      @media (max-width: 767px) {
+        .impact-cards .col-md-4 {
+          margin-bottom: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg shadow">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html"
+          ><i class="bi bi-globe-americas me-2"></i>EmpowerHope Foundation</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="volunteer.html">Volunteer</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <h1>Empowering Communities.<br />Changing Lives.</h1>
+        <p class="lead mt-3 mb-4">
+          EmpowerHope Foundation, established and developed by Raghav Tyagi,
+          unites passionate volunteers and citizens to create lasting social
+          impact—one community at a time.
+        </p>
+        <a href="volunteer.html" class="btn btn-warning btn-lg mt-2 shadow"
+          >Become a Volunteer</a
+        >
+      </div>
+    </section>
+
+    <!-- Impact / Statistics -->
+    <section class="container my-5 impact-cards" aria-label="Impact statistics">
+      <div class="row text-center g-4">
+        <div class="col-md-4">
+          <div class="card p-4 h-100">
+            <i class="bi bi-people-fill"></i>
+            <h2 class="mb-1">
+              <span class="counter" data-target="3500">0</span>+
+            </h2>
+            <p>Lives Empowered</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-4 h-100">
+            <i class="bi bi-award-fill"></i>
+            <h2 class="mb-1">
+              <span class="counter" data-target="320">0</span>+
+            </h2>
+            <p>Active Volunteers</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-4 h-100">
+            <i class="bi bi-building"></i>
+            <h2 class="mb-1">
+              <span class="counter" data-target="18">0</span>
+            </h2>
+            <p>Communities Supported</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- More Info & Highlights -->
+    <section class="container about-highlights" aria-label="What we do">
+      <div class="row gx-4 gy-4 align-items-center">
+        <div class="col-md-6">
+          <h2 class="section-title">What We Do</h2>
+          <ul class="list-unstyled fs-5">
+            <li class="mb-3">
+              <i class="bi bi-bookmark-check-fill"></i> Access to quality
+              education for every child
+            </li>
+            <li class="mb-3">
+              <i class="bi bi-heart-pulse-fill"></i> Free health camps & medical
+              aid
+            </li>
+            <li class="mb-3">
+              <i class="bi bi-lightbulb-fill"></i> Women empowerment & skill
+              development workshops
+            </li>
+            <li class="mb-3">
+              <i class="bi bi-globe"></i> Environmental awareness & rural
+              sustainability projects
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <!-- Graphic placeholder replaces image -->
+          <div class="placeholder-graphic">
+            <span
+              ><i class="bi bi-emoji-sunglasses display-5"></i> Empowering
+              Together!</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="container mb-5" aria-label="Volunteer testimonials">
+      <h3 class="section-title">What Our Volunteers Say</h3>
+      <div class="row justify-content-center">
+        <div class="col-md-6 testimonial" style="display: flex">
+          "Volunteering with EmpowerHope Foundation has been life-changing. The
+          spirit of giving back and the welcoming community makes it
+          exceptional."
+          <br /><strong>– Priya S.</strong>
+        </div>
+        <div class="col-md-6 testimonial" style="display: none">
+          "Raghav Tyagi’s leadership inspires us all to contribute passionately
+          to meaningful causes."
+          <br /><strong>– Arjun K.</strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- Back to top button -->
+    <button id="backToTop" aria-label="Back to top">&#8679;</button>
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <div>
+        <span class="me-3">
+          <a
+            href="#"
+            class="text-decoration-none text-primary"
+            aria-label="Facebook"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a
+            href="#"
+            class="text-decoration-none text-info ms-3"
+            aria-label="Twitter"
+            ><i class="bi bi-twitter"></i
+          ></a>
+          <a
+            href="#"
+            class="text-decoration-none text-danger ms-3"
+            aria-label="Instagram"
+            ><i class="bi bi-instagram"></i
+          ></a>
+        </span>
+        &copy; 2025 EmpowerHope Foundation | Founded & Developed by Raghav Tyagi
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
